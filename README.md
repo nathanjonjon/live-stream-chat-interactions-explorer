@@ -12,7 +12,7 @@ This is an AI tool that help users fetch chat logs and find interactions during 
 
 
 ## Data Preprocessing
-1. Remove Twitch/Youtube emotes, emoji and punctuations
+1. Remove Twitch/Youtube emotes, emojis and punctuations
 2. Remove digits, words in foreign language and urls
 3. Remove stop words
 4. Extract `PROPN`, `VERB`, `NOUN`, `ADJ`, `ADV` using `en_core_web_sm`
@@ -30,7 +30,7 @@ python3 chat_explorer.py [streamer_username] [stream_video_link]
 
 I don't have any labels since it's an unsupervised learning task and I don't have enough compute resources to fine-tune the hyperparameters or transcribe the whole stream. However, my current algorithm works well on about 100 streams despite low recall rate sometimes.
 
-- **FAN INTERACTIONS** : Topics that intensive chats and the streamer are talking about. Below shows a list of chats and the key words that may be the topics of their interactions.
+- **FAN INTERACTIONS** : Topics that intensive chats and the streamer are talking about. Below shows a list of chats and the key words which involve in the chats and transcription andw may be the topics of their interactions.
     | Timestamp | Chat | Keywords |
     | --- | --- | --- |
     | 00:55:42 | never sell wtf | `"sell"` |
