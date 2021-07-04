@@ -1,0 +1,8 @@
+tcd
+chat-downloader==0.0.8
+boto3
+botocore
+gensim
+spacy
+nltk
+requests
