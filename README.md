@@ -32,7 +32,7 @@ I don't have any labels since it's an unsupervised learning task and I don't hav
 
 - FAN INTERACTIONS : Topics that intensive chats and the streamer are talking about. Below shows a list of chats and the key words that may be the topics of their interactions.
     | Timestamp | Chat | Keywords |
-    | --- | --- |
+    | --- | --- | --- |
     | 00:55:42 | never sell wtf | `"sell"` |
     | 01:03:33 | twitch has twittered they are working on their twitching | `"streaming, fine, work, video"` |
     | 01:05:25 | yes, you would be the favorite person at the 6-year olds birthday party if you could face ... | `"face, paint"` |
