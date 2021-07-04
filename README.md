@@ -28,7 +28,7 @@ python3 chat_explorer.py [streamer_username] [stream_video_link]
 
 ## Sample Results
 
-None of the chats is labeled since they are raw data from the provider; also, with the lack of enough compute resources to fine-tune the model or transcribe the whole stream, the hyperparameters are somewhat hardcoded and it only infer the model with the transcription when it finds potential interactions. However, my current algorithm works well on about 100 streams despite low recall rate sometimes, and it's capable of helping people find interesting moments in a stream.
+None of the chats is labeled since they are raw data from the provider; also, with the lack of enough compute resources to fine-tune the model or transcribe the whole stream, the hyperparameters are somewhat hardcoded and it only infers the model with the transcription when it finds potential interactions. However, my current algorithm works well on about 100 streams despite low recall rate sometimes, and it's capable of helping people find interesting moments in a stream.
 
 - **FAN INTERACTIONS** : Topics that intensive chats and the streamer are talking about. Below shows a list of chats and the key words which involve in the chats and transcription andw may be the topics of their interactions.
     | Timestamp | Chat | Keywords |
