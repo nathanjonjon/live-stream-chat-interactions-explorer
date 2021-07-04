@@ -30,7 +30,7 @@ python3 chat_explorer.py [streamer_username] [stream_video_link]
 
 I don't have any labels since it's an unsupervised learning task and I don't have enough compute resources to fine-tune the hyperparameters or transcribe the whole stream. However, my current algorithm works well on about 100 streams despite low recall rate sometimes.
 
-- FAN INTERACTIONS : Topics that intensive chats and the streamer are talking about. Below shows a list of chats and the key words that may be the topics of their interactions.
+- **FAN INTERACTIONS** : Topics that intensive chats and the streamer are talking about. Below shows a list of chats and the key words that may be the topics of their interactions.
     | Timestamp | Chat | Keywords |
     | --- | --- | --- |
     | 00:55:42 | never sell wtf | `"sell"` |
@@ -40,7 +40,7 @@ I don't have any labels since it's an unsupervised learning task and I don't hav
     | 01:13:15 | i mean, you would be perfect for an Australian Disney princess? | `"australian, disney"` |
     | 01:26:25 |  I like listening to podcasts of people just talking about | `"talk, podcast, cares, opinions, care, acting"` |  
 
-- HIGH ACTIVITY : Intensive chats with a topic that may indicate an interaction among viewers. Below shows a list of the most representative chats.
+- **HIGH ACTIVITY** : Intensive chats with a topic that may indicate an interaction among viewers. Below shows a list of the most representative chats.
     | Timestamp | Chat |
     | --- | --- |
     | 00:04:57 | nice password |
