@@ -1,6 +1,6 @@
 # Live Stream Chat Interactions Explorer
 
-This is an AI tool that helps users fetch chat logs and find interactions during a live stream. Currently, it supports 2 sources, Twitch and Youtube, using `LDA` for topic modeling and `AWS Transcribe` for converting audio clips to texts as quries to infer the model.
+This is an AI tool that helps users fetch chat logs and find interactions in a live stream. Currently, it supports 2 sources, Twitch and Youtube, using `LDA` for topic modeling and `AWS Transcribe` for converting audio clips to texts as quries to infer the model.
 
 ## Project Structure
 
