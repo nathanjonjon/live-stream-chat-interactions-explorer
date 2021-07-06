@@ -9,7 +9,7 @@ from utils import upload_file, download_file, makeClips, createMoment
 from discoverer import Discoverer
 from transcriber import Transcriber
 
-TRANSCRIBE_BUCKET = os.environ['TRANSCRIBE_BUCKET']
+TRANSCRIBE_BUCKET = os.getenv('TRANSCRIBE_BUCKET')
 
 def loadDictionaryAndCorpus(target_path: str, video_id: str):
     dictionary = corpora.Dictionary.load(

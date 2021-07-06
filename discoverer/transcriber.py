@@ -1,7 +1,7 @@
 import boto3, time, os
 
-AWS_S3_REGION = os.environ['AWS_S3_REGION']
-TRANSCRIBE_BUCKET = os.environ['TRANSCRIBE_BUCKET']
+AWS_S3_REGION = os.getenv('AWS_S3_REGION')
+TRANSCRIBE_BUCKET = os.getenv('TRANSCRIBE_BUCKET')
 
 class Transcriber():
     def __init__(self, username: str, video_id: str):

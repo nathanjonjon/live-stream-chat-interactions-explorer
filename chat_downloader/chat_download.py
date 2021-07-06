@@ -23,7 +23,7 @@ def twtich(username, video_id, target_path):
 def youtube(username, video_id, target_path):
     ## get video info from YouTube
     ## may need to register an api key to fetch info of a video
-    API_KEY = os.environ['YT_API_KEY']
+    API_KEY = os.getenv('YT_API_KEY')
     YT_API_BASE_URL = 'https://www.googleapis.com/youtube/v3/'
     YT_API_ENDPOINT = f'{YT_API_BASE_URL}videos?part=contentDetails,liveStreamingDetails&id={video_id}&key={API_KEY}'
 
