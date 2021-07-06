@@ -24,6 +24,7 @@ This is an AI tool that helps users fetch chat logs and find interactions in a l
 ```
 python3 chat_explorer.py [streamer_username] [stream_video_link]
 ```
+Note that you should set environment variables such as Twitch/Youtube API key, AWS-related information and prepare your own credentials to use boto3.
 
 
 ## Sample Results
